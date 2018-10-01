@@ -11,4 +11,4 @@ run:
 	./test
 
 clean:
-	rm *.o test strings.h.gch
+	rm *.o test
