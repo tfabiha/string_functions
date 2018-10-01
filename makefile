@@ -6,3 +6,9 @@ main.o: main.c strings.h
 
 strings.o: strings.c strings.h
 	gcc -c strings.c
+
+run:
+	./test
+
+clean:
+	rm *.o test strings.h.gch
