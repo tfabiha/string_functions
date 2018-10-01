@@ -33,5 +33,11 @@ int main()
 
   printf("\n#################################\n\n");
 
+  printf("Finding the first f in str2\n");
+  printf("Printing str2: [%s]\n", str2);
+  printf("Printing string from f in str2: [%s]\n", mystrchr(str2, 'f'));
+
+  printf("\n#################################\n\n");
+
   return 0;
 }

@@ -55,10 +55,15 @@ char * mystrchr(char *s, char c)
 {
   char *iter = s;
 
-  while (*iter != c)
+  while (*iter != c && *iter)
   {
     iter += 1;
   }
 
-  return iter;
+  if (*iter)
+  {
+    return iter;
+  }
+  
+  return NULL;
 }
