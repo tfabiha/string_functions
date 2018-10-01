@@ -4,3 +4,5 @@ int mystrlen (char *str);
 
 char * mystrcpy(char *dest, char *source);
 char * mystrncpy(char *dest, char * source, int n);
+
+char * mystrchr(char *s, char c);

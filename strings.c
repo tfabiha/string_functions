@@ -50,3 +50,15 @@ char * mystrncpy(char *dest, char *source, int n)
 
   return dest;
 }
+
+char * mystrchr(char *s, char c)
+{
+  char *iter = s;
+
+  while (*iter != c)
+  {
+    iter += 1;
+  }
+
+  return iter;
+}
